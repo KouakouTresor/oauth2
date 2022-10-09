@@ -3,7 +3,7 @@ const app = express();
 
 
 app.get("/", (req, res)=>{
-    res.send({name: "Enrico"})
+    res.send({name: "Enrico", age: 28})
 })
 
 
